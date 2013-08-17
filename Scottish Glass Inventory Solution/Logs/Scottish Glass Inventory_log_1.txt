@@ -2297,3 +2297,4 @@
 2013-08-16 12:07:21 [com.wakanda-software.dbmg] ERROR - [1574] The glassSymbol attribute is not the correct type, task #6164, task name is HTTP connection handler
 2013-08-16 14:36:43 [com.wakanda-software.dbmg] ERROR - [1574] The glassSymbol attribute is not the correct type, task #6164, task name is HTTP connection handler
 2013-08-16 16:59:55 [com.wakanda-software.dbmg] ERROR - [1574] The glassSymbol attribute is not the correct type, task #6200, task name is HTTP connection handler
+2013-08-16 18:40:05 [com.wakanda-software.dbmg] ERROR - [1574] The glassSymbol attribute is not the correct type, task #6956, task name is HTTP connection handler
