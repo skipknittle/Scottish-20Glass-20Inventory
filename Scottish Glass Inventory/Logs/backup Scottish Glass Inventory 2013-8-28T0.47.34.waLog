@@ -1,0 +1,8 @@
+Backing up log file on -1 operations
+End Backing up log file
+Estimating backup size on -1 operations
+End Estimating backup size
+Backing up database on 25503097 operations
+End Backing up database
+Error code: 600 (OS error: -43), xtoolbox, File not found (fnfErr)., Cannot rename file "data.waData./journal.waJournal" to "oldJournal_2013-08-28_00-47-35-000.waJournal" (Centennial:Users:skip:Documents:Wakanda:ScottishGlassInventory:Scottish Glass Inventory:DataFolder:data.waData./journal.waJournal)
+no errors found

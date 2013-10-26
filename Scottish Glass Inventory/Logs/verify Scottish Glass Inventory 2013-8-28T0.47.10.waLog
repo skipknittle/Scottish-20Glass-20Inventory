@@ -1,0 +1,23 @@
+Check bit tables for segment 1 on 6 elements
+End Check bit tables for segment 1
+Check bit tables for segment 65 on 1 elements
+End Check bit tables for segment 65
+Checking auto sequence number definitions on 3 elements
+End Checking auto sequence number definitions
+Checking chained list of deleted auto sequence number def initions on 3 elements
+End Checking chained list of deleted auto sequence number def initions
+Checking data table definitions on 4 elements
+End Checking data table definitions
+Checking chained list of deleted table definitions on 4 elements
+End Checking chained list of deleted table definitions
+Checking index definitions on 5 elements
+End Checking index definitions
+Checking chained list of deleted index definitions on 5 elements
+End Checking chained list of deleted index definitions
+Load data tables on 0 elements
+Checking data table headers on 4 elements
+End Checking data table headers
+Checking chained list of deleted data table headers on 4 elements
+End Checking chained list of deleted data table headers
+End 
+Checking BLOBs in table Glass on 402 elements

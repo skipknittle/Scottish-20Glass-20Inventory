@@ -2,6 +2,11 @@
 WAF.onAfterInit = function onAfterInit() {// @lock
 
 // @region namespaceDeclaration// @startlock
+	var combobox5 = {};	// @combobox
+	var combobox4 = {};	// @combobox
+	var combobox3 = {};	// @combobox
+	var documentEvent = {};	// @document
+	var dataGrid4 = {};	// @dataGrid
 	var changeLocation = {};	// @button
 	var button7 = {};	// @button
 	var locationQueryString = {};	// @combobox
@@ -15,10 +20,46 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 
 // eventHandlers// @lock
 
+	combobox5.change = function combobox5_change (event)// @startlock
+	{// @endlock
+		theCity = $$('combobox3').getValue();
+		sources.locations.query('city = :1 order by bin', {params: [theCity + "*"]});
+	};// @lock
+
+	combobox4.change = function combobox4_change (event)// @startlock
+	{// @endlock
+		theCity = $$('combobox4').getValue();
+		sources.locations.query('city = :1 order by bin', {params: [theCity + "*"]});
+	};// @lock
+
+	combobox3.change = function combobox3_change (event)// @startlock
+	{// @endlock
+		theCity = $$('combobox3').getValue();
+		sources.locations.query('city = :1 order by bin', {params: [theCity + "*"]});
+	};// @lock
+
+	documentEvent.onLoad = function documentEvent_onLoad (event)// @startlock
+	{// @endlock
+//		debugger
+		sources.inventory.query('glassType.symbol = "*" order by glassType.symbol');
+	};// @lock
+
+	dataGrid4.onRowClick = function dataGrid4_onRowClick (event)// @startlock
+	{// @endlock
+		// This code get the value from a data grid and moves 
+		// the value of the numbered column to a variable
+		
+			var vGetSymbol= $$("dataGrid4").column(5).getFormattedValue();	
+			$$('vSymbol').setValue(vGetSymbol)
+	
+//		
+		
+	};// @lock
+
 	changeLocation.click = function changeLocation_click (event)// @startlock
 	{// @endlock
-		sources.inventory.location.set( sources.locations ); 
-		sources.inventory.save();
+//		sources.inventory.location.set( sources.locations ); 
+//		sources.inventory.save();
 	};// @lock
 //	$$('locationQueryString').setValue("");
 	button7.click = function button7_click (event)// @startlock
@@ -35,8 +76,8 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 	locationQueryString.click = function locationQueryString_click (event)// @startlock
 	{// @endlock
 		// This initiates a query for the glass 
-		var theGlassLocation = $$("locationQueryString").getValue();
-		sources.inventory.query('location.bin = :1', {params: [theGlassLocation + "*"]});
+//		var theGlassLocation = $$("locationQueryString").getValue();
+//		sources.inventory.query('location.bin = :1', {params: [theGlassLocation + "*"]});
 	};// @lock
 
 	locationQueryString.change = function locationQueryString_change (event)// @startlock
@@ -114,6 +155,11 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 	};// @lock
 
 // @region eventManager// @startlock
+	WAF.addListener("combobox5", "change", combobox5.change, "WAF");
+	WAF.addListener("combobox4", "change", combobox4.change, "WAF");
+	WAF.addListener("combobox3", "change", combobox3.change, "WAF");
+	WAF.addListener("document", "onLoad", documentEvent.onLoad, "WAF");
+	WAF.addListener("dataGrid4", "onRowClick", dataGrid4.onRowClick, "WAF");
 	WAF.addListener("changeLocation", "click", changeLocation.click, "WAF");
 	WAF.addListener("locationQueryString", "click", locationQueryString.click, "WAF");
 	WAF.addListener("button7", "click", button7.click, "WAF");
