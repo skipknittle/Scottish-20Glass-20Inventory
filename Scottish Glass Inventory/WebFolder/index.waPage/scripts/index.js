@@ -2,9 +2,7 @@
 WAF.onAfterInit = function onAfterInit() {// @lock
 
 // @region namespaceDeclaration// @startlock
-	var combobox5 = {};	// @combobox
-	var combobox4 = {};	// @combobox
-	var combobox3 = {};	// @combobox
+	var cityCombobox = {};	// @combobox
 	var documentEvent = {};	// @document
 	var dataGrid4 = {};	// @dataGrid
 	var changeLocation = {};	// @button
@@ -20,22 +18,12 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 
 // eventHandlers// @lock
 
-	combobox5.change = function combobox5_change (event)// @startlock
+	cityCombobox.change = function cityCombobox_change (event)// @startlock
 	{// @endlock
-		theCity = $$('combobox3').getValue();
-		sources.locations.query('city = :1 order by bin', {params: [theCity + "*"]});
-	};// @lock
+		theCity = $$('cityCombobox').getValue();
+		sources.locations.query('city = :1', {params: [theCity + "*"]});
+		
 
-	combobox4.change = function combobox4_change (event)// @startlock
-	{// @endlock
-		theCity = $$('combobox4').getValue();
-		sources.locations.query('city = :1 order by bin', {params: [theCity + "*"]});
-	};// @lock
-
-	combobox3.change = function combobox3_change (event)// @startlock
-	{// @endlock
-		theCity = $$('combobox3').getValue();
-		sources.locations.query('city = :1 order by bin', {params: [theCity + "*"]});
 	};// @lock
 
 	documentEvent.onLoad = function documentEvent_onLoad (event)// @startlock
@@ -155,9 +143,7 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 	};// @lock
 
 // @region eventManager// @startlock
-	WAF.addListener("combobox5", "change", combobox5.change, "WAF");
-	WAF.addListener("combobox4", "change", combobox4.change, "WAF");
-	WAF.addListener("combobox3", "change", combobox3.change, "WAF");
+	WAF.addListener("cityCombobox", "change", cityCombobox.change, "WAF");
 	WAF.addListener("document", "onLoad", documentEvent.onLoad, "WAF");
 	WAF.addListener("dataGrid4", "onRowClick", dataGrid4.onRowClick, "WAF");
 	WAF.addListener("changeLocation", "click", changeLocation.click, "WAF");
