@@ -1,0 +1,1 @@
+﻿var someItems = ds.Locations.all();//someItems.toArray('bin, city')someItems.distinctValues('city');
