@@ -1,0 +1,25 @@
+Compacting auto sequence number definitions on 3 elements
+End Compacting auto sequence number definitions
+Compacting data table definitions on 4 elements
+End Compacting data table definitions
+Loading data tables on 0 elements
+Compacting data table headers on 4 elements
+End Compacting data table headers
+End 
+Compacting BLOBs in table Glass on 405 elements
+End Compacting BLOBs in table Glass
+Compacting records in table Glass on 441 elements
+End Compacting records in table Glass
+Compacting BLOBs in table Inventory on 0 elements
+End Compacting BLOBs in table Inventory
+Compacting records in table Inventory on 755 elements
+End Compacting records in table Inventory
+Compacting BLOBs in table Locations on 0 elements
+End Compacting BLOBs in table Locations
+Compacting records in table Locations on 41 elements
+End Compacting records in table Locations
+Compacting BLOBs in table Location on 0 elements
+End Compacting BLOBs in table Location
+Compacting records in table Location on 0 elements
+End Compacting records in table Location
+no errors found

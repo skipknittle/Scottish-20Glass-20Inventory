@@ -21,3 +21,75 @@ Checking chained list of deleted data table headers on 4 elements
 End Checking chained list of deleted data table headers
 End 
 Checking BLOBs in table Glass on 402 elements
+End Checking BLOBs in table Glass
+Checking list of deleted BLOBs in table Glass on 402 elements
+End Checking list of deleted BLOBs in table Glass
+Checking records in table Glass on 440 elements
+End Checking records in table Glass
+Checking list of deleted records in table Glass on 402 elements
+End Checking list of deleted records in table Glass
+Checking BLOBs in table Inventory on 0 elements
+End Checking BLOBs in table Inventory
+Checking list of deleted BLOBs in table Inventory on 0 elements
+End Checking list of deleted BLOBs in table Inventory
+Checking records in table Inventory on 685 elements
+End Checking records in table Inventory
+Checking list of deleted records in table Inventory on 0 elements
+End Checking list of deleted records in table Inventory
+Checking BLOBs in table Locations on 0 elements
+End Checking BLOBs in table Locations
+Checking list of deleted BLOBs in table Locations on 0 elements
+End Checking list of deleted BLOBs in table Locations
+Checking records in table Locations on 38 elements
+End Checking records in table Locations
+Checking list of deleted records in table Locations on 0 elements
+End Checking list of deleted records in table Locations
+Checking BLOBs in table Location on 0 elements
+End Checking BLOBs in table Location
+Checking list of deleted BLOBs in table Location on 0 elements
+End Checking list of deleted BLOBs in table Location
+Checking records in table Location on 0 elements
+End Checking records in table Location
+Checking list of deleted records in table Location on 0 elements
+End Checking list of deleted records in table Location
+Checking index B-tree Index 0 on Glass.ID on 0 elements
+Checking index page addresses on B-tree Index 0 on Glass.ID on 3 elements
+End Checking index page addresses on B-tree Index 0 on Glass.ID
+Checking index pages on B-tree Index 0 on Glass.ID on 3 elements
+End Checking index pages on B-tree Index 0 on Glass.ID
+End 
+Checking index B-tree Index 1 on Inventory.ID on 0 elements
+Checking index page addresses on B-tree Index 1 on Inventory.ID on 4 elements
+End Checking index page addresses on B-tree Index 1 on Inventory.ID
+Checking index pages on B-tree Index 1 on Inventory.ID on 4 elements
+End Checking index pages on B-tree Index 1 on Inventory.ID
+End 
+Checking index Cluster Index 2 on Inventory.glassType on 0 elements
+Checking index page addresses on Cluster Index 2 on Inventory.glassType on 1 elements
+End Checking index page addresses on Cluster Index 2 on Inventory.glassType
+Checking clusters on Cluster Index 2 on Inventory.glassType on 154 elements
+End Checking clusters on Cluster Index 2 on Inventory.glassType
+Checking list of deleted clusters on Cluster Index 2 on Inventory.glassType on 154 elements
+End Checking list of deleted clusters on Cluster Index 2 on Inventory.glassType
+Checking index pages on Cluster Index 2 on Inventory.glassType on 1 elements
+End Checking index pages on Cluster Index 2 on Inventory.glassType
+End 
+Checking index Cluster Index 3 on Inventory.location on 0 elements
+Checking index page addresses on Cluster Index 3 on Inventory.location on 1 elements
+End Checking index page addresses on Cluster Index 3 on Inventory.location
+Checking clusters on Cluster Index 3 on Inventory.location on 29 elements
+End Checking clusters on Cluster Index 3 on Inventory.location
+Checking list of deleted clusters on Cluster Index 3 on Inventory.location on 29 elements
+End Checking list of deleted clusters on Cluster Index 3 on Inventory.location
+Checking index pages on Cluster Index 3 on Inventory.location on 1 elements
+End Checking index pages on Cluster Index 3 on Inventory.location
+End 
+Checking index B-tree Index 4 on Locations.ID on 0 elements
+Checking index page addresses on B-tree Index 4 on Locations.ID on 1 elements
+End Checking index page addresses on B-tree Index 4 on Locations.ID
+Checking index pages on B-tree Index 4 on Locations.ID on 1 elements
+End Checking index pages on B-tree Index 4 on Locations.ID
+End 
+Scanning data on 65 elements
+End Scanning data
+no errors found
